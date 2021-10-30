@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.loja.mrf</groupId>
+  <artifactId>loja</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>loja</name>
+  <description>estudo de java</description>
+<dependencies>
+  <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-webmvc</artifactId>
+	    <version>5.3.9</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-servlet-api -->
+	<dependency>
+	    <groupId>org.apache.tomcat</groupId>
+	    <artifactId>tomcat-servlet-api</artifactId>
+	    <version>9.0.14</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+	<dependency>
+	    <groupId>javax.servlet.jsp</groupId>
+	    <artifactId>javax.servlet.jsp-api</artifactId>
+	    <version>2.3.1</version>
+	    <scope>provided</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api -->
+	<dependency>
+	    <groupId>javax.servlet.jsp.jstl</groupId>
+	    <artifactId>jstl-api</artifactId>
+	    <version>1.2</version>
+	    <exclusions>
+            <exclusion>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+            </exclusion>
+        </exclusions>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.glassfish.web/jstl-impl -->
+	<dependency>
+	    <groupId>org.glassfish.web</groupId>
+	    <artifactId>jstl-impl</artifactId>
+	    <version>1.2</version>
+	    <scope>runtime</scope>
+	    <exclusions>
+            <exclusion>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+            </exclusion>
+        </exclusions>
+	</dependency>	
+	
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-api</artifactId>
+	    <version>1.7.32</version>
+	    <scope>runtime</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-log4j12</artifactId>
+	    <version>1.7.32</version>
+	    <scope>runtime</scope>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-core</artifactId>
+	    <version>2.12.1</version>
+	</dependency>
+	
+	
+	
+	
+	
+	
+</dependencies>
+</project>
